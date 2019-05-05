@@ -4,7 +4,7 @@ Using Page Object Model
 <h2>Class Diagram</h2>
 
 ![Imgur Image](https://imgur.com/a/gDMVpy5)
-[Imgur](https://i.imgur.com/ChbZhn7.png)
+![Imgur](https://i.imgur.com/ChbZhn7.png)
 
 <h1>login.py</h1>
 
