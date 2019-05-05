@@ -6,9 +6,17 @@ Using Page Object Model
 
 ![Imgur](https://i.imgur.com/ChbZhn7.png)
 
-<h1>login.py</h1>
+<h3>login.py</h3>
 
-This is the main testing file. Calls other methods from other classes to test login and logout functionality
+tests Log in and Logout functionality via front end.
+
+<h3>test_admin_employee_sort.py</h3>
+
+Tests the sorting feature of the employee table on the admin page. This verifies that it sorts it into alphabetical order.
+
+
+
+
 
 
 
