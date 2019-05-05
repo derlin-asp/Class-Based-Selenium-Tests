@@ -35,6 +35,8 @@ class LoginTest(unittest.TestCase):
 		time.sleep(2)
 		home.click_logout()
 
+
+		
 		#time.sleep(100)
 		'''
 		self.browser.get("https://opensource-demo.orangehrmlive.com/")

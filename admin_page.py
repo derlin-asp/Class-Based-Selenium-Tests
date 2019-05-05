@@ -3,18 +3,39 @@ from locators import Locators
 class AdminPage():
 
 	def __init__(self, browser):
-		#print ("INSIDE INTI CONST")
+		#for navigating to admin and sorting table
 		self.browser = browser
 		self.admin_link_text_on_dash = Locators.admin_link_text_on_dash
 		self.admin_page_employe_text = Locators.admin_page_employe_text
 		self.employee_list = Locators.employee_list
+		#for adding new employee
+		self.admin_user_type_dropdown_id = Locators.admin_user_type_dropdown_id
+		self.employe_name_textbox_id = Locators.employe_name_textbox_id
+		self.employee_user_name_id = Locators.employee_user_name_id
+		self.employee_status_id = Locators.employee_status_id
+		self.employee_password_id = Locators.employee_password_id
+		self.employee_password_confirm_id = Locators.employee_password_confirm_id
+		self.admin_employee_add_save_btn_id = Locators.admin_employee_add_save_btn_id
+
+
+	def click_add_on_admin_page(self):
+		self.browser.find_element_by_id("btnAdd").click()	
+
+
+
+	def test_add_new_user(self, username, user_role, employee_name, status, password):
+		#self.browser.find_element_by_name(self.admin_user_type_dropdown_id).select_by_visible_text(user_role)
+		self.browser.find_element_by_id(self.employe_name_textbox_id).send_keys(employee_name)
+		self.browser.find_element_by_id(self.employee_user_name_id).send_keys(username)
+		#self.browser.find_element_by_id(self.employee_status_id).select_by_visible_text(status)
+		self.browser.find_element_by_id(self.employee_password_id).send_keys(password)
+		self.browser.find_element_by_id(self.employee_password_confirm_id).send_keys(password)		
+		self.browser.find_element_by_id(self.admin_employee_add_save_btn_id).click() 
 
 	#checks whether employee column was properly sorted	on admin page
 
 	def set_up_table_xpaths(self):
 		listy = []
-		#temp = self.browser.find_elements_by_xpath(self.employee_list)
-
 		table =  self.browser.find_element_by_xpath("//table[@id='resultTable']")
 
 		for row in table.find_elements_by_xpath(".//tr"):
@@ -35,18 +56,9 @@ class AdminPage():
 
 	def check_if_sort_worked(self):
 		temp = self.browser.find_elements_by_xpath(self.employee_list)
-	#print(len(temp))
 
-		#for x in range(len(temp)):
-		#	temp = self.browser.find_elements_by_xpath(self.employee_list)
-		'''
-	
-		
 
- 	#need way to find highest entry number
-		for number of entries in list 
-			format xapth for next one
-'''
+
 
 	
 
