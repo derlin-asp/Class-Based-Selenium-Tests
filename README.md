@@ -16,7 +16,7 @@ tests Log in and Logout functionality via front end.
 
 is composed of LoginPage objects.
 
-<h3>test_admin_employee_sort.py</h3>
+<h3>admin_page.py</h3>
 
 Tests the sorting feature of the employee table on the admin page. This verifies that it sorts it into alphabetical order.
 
