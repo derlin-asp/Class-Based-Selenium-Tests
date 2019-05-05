@@ -20,7 +20,7 @@ is composed of LoginPage objects.
 
 Tests the sorting feature of the employee table on the admin page. This verifies that it sorts it into alphabetical order.
 
-
+ 	Logic for the sortation verify is located in test_admin_employee_sort.py
 
 
 
