@@ -11,6 +11,7 @@ from homePage import HomePage
 from login_page import LoginPage
 from admin_page import AdminPage
 import time
+from faker import Faker
 
 class AddingEmployeeUI(unittest.TestCase):
 
@@ -25,7 +26,7 @@ class AddingEmployeeUI(unittest.TestCase):
 
 	def test_adding_new_employee(self):
 		browser = self.browser
-
+		time.sleep(10)
 
 		login = LoginPage(browser)  #using class as object for this class HAS A
 		login.enter_username("Admin")
@@ -36,7 +37,9 @@ class AddingEmployeeUI(unittest.TestCase):
 		admin = AdminPage(browser)
 		admin.click_admin_tab()
 		admin.click_add_on_admin_page()
-		admin.test_add_new_user("username", "ESS", "Robert Craig", "Enabled", "password")
+
+		fake = Faker()
+		admin.test_add_new_user( fake.name(), "ESS", "Robert Craig", "Enabled", "password") #mabye add a way to dynamically get an existing user at random
 		time.sleep(5)
 
 	@classmethod

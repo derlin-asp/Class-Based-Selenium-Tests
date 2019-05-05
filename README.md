@@ -8,19 +8,27 @@ Using Page Object Model
 
 
 <h2>Test Classes</h2>
-These test classes are composed of PageObjectModels which contain the methods for navigation and verification.
 
-<h3>login.py</h3>
+These classes launch the POM class methods. Each Test Class is a single test.
 
-tests Log in and Logout functionality via front end.
 
-is composed of LoginPage objects.
+They have names like <b>test_feature_being_tested.py</b>
 
-<h3>admin_page.py</h3>
+So test_admin_employee_sort.py would be testing the sorting feature on the admin page.
 
-Tests the sorting feature of the employee table on the admin page. This verifies that it sorts it into alphabetical order.
 
- 	Logic for the sortation verify is located in test_admin_employee_sort.py
+
+<h2>Page Object Models</h2>
+
+These files contain the object representation of the pages being tested.
+
+
+this includes the locators from the locators class and the methods for testing features.
+
+
+They are named like AdminPage.py
+
+
 
 
 
