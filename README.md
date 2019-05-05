@@ -6,9 +6,15 @@ Using Page Object Model
 
 ![Imgur](https://i.imgur.com/ChbZhn7.png)
 
+
+<h2>Test Classes</h2>
+These test classes are composed of PageObjectModels which contain the methods for navigation and verification.
+
 <h3>login.py</h3>
 
 tests Log in and Logout functionality via front end.
+
+is composed of LoginPage objects.
 
 <h3>test_admin_employee_sort.py</h3>
 
