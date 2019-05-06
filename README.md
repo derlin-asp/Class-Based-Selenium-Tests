@@ -1,6 +1,9 @@
 # Class-Based-Selenium-Tests
 Testing of Demo Website for Many Different Test using Python Unittest Request Library etc
 Using Page Object Model
+
+The tests can be run individually from the CLI or run as a group using pytest
+
 <h2>Class Diagram</h2>
 
 
