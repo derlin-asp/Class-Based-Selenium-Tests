@@ -1,6 +1,5 @@
 
-from HelperClasses.locators import Locators
-
+#from HelperClasses.locators import Locators
 from selenium import webdriver
 import unittest
 import HtmlTestRunner
@@ -31,7 +30,7 @@ class LoginTest(unittest.TestCase):
 		home = HomePage(browser)
 
 		home.click_welcome()
-		time.sleep(2)
+		#time.sleep(2)
 		home.click_logout()
 
 

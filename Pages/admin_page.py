@@ -47,7 +47,10 @@ class AdminPage():
 
 
     def click_admin_tab(self):
-        self.browser.find_element_by_id(self.admin_link_on_dash_id).click()
+        print("TESTING ADMIN TAB FUNCTION CLICK")
+        self.browser.find_element_by_id(self.admin_link_on_dash_id).click()  #THIS IS NOT WORKING
+        print("testing after click")
+        self.browser.find_element_by_xpath("/html/body/div[1]/div[2]/ul/li[1]/a/b").click()  #for just tesing purposes
 
 
 
@@ -55,8 +58,12 @@ class AdminPage():
         self.browser.find_element_by_xpath(self.admin_page_employe_xpath).click()
 
 
-    def check_if_sort_worked(self):
-        temp = self.browser.find_elements_by_xpath(self.employee_list)
+    def check_if_add_worked(self): ##adding function to make sure added user is now in table
+        table = self.browser.find_element_by_xpath("//table[@id='resultTable']")
+
+        for row in table.find_elements_by_xpath(".//tr"):
+            listy.append([td.text for td in row.find_elements_by_xpath(".//td[@class='left'][3]")])  #
+
 
 
 

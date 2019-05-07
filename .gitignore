@@ -2,6 +2,7 @@
 geckodriver
 geckodriver.log
 venv/
+.idea/
 
 
 

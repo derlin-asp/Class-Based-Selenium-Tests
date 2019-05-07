@@ -1,5 +1,5 @@
 
-from HelperClasses.locators import Locators
+#from HelperClasses.locators import Locators
 
 from selenium import webdriver
 import unittest
@@ -32,7 +32,7 @@ class AddingEmployeeUI(unittest.TestCase):
 		login.click_submit_on_login_page()
 
 		admin = AdminPage(browser)
-		admin.click_admin_tab()
+		admin.click_admin_tab()  # not working
 		admin.click_add_on_admin_page()
 
 		fake = Faker()

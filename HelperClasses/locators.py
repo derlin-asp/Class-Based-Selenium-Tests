@@ -20,8 +20,9 @@ class Locators():
 
 	#admin page 
 	#add_button_on_admin_page_id = "menu_admin_viewAdminModule"
-	admin_page_employe_xpath = "/html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/thead/tr/th[4]/a"  #dasdasd
-	add_button_on_admin_page_id = "btnAdd"
+	admin_page_employe_xpath = "/html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/thead/tr/th[4]/a"
+	#   /html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/thead/tr/th[4]/a
+	add_button_on_admin_page_id = "btnAdd"  #never works or its not on admin page
 	admin_link_on_dash_id = "menu_admin_viewAdminModule"
 
 		#employee admin table
