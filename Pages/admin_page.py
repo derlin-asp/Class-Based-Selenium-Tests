@@ -1,4 +1,13 @@
 from HelperClasses.locators import Locators
+import time
+
+def loop_check(self, username, listy):
+    for person in listy:
+        if person == username:
+            return True
+    return False
+
+
 
 class AdminPage():
 
@@ -41,28 +50,45 @@ class AdminPage():
 
         for row in table.find_elements_by_xpath(".//tr"):
             listy.append( [td.text for td in row.find_elements_by_xpath(".//td[@class='left'][3]") ] ) #
-
+        print(listy)
         listy2 = sorted(listy)
+        print(listy2)
         assert(listy2 == listy)
 
 
-    def click_admin_tab(self):
+    def click_admin_tab(self): #cannot get this to work consistently so just using get method
         print("TESTING ADMIN TAB FUNCTION CLICK")
-        self.browser.find_element_by_id(self.admin_link_on_dash_id).click()  #THIS IS NOT WORKING
+        #time.sleep(15)
+        #self.browser.find_element_by_id(self.admin_link_on_dash_id).click()  #THIS IS NOT WORKING
         print("testing after click")
-        self.browser.find_element_by_xpath("/html/body/div[1]/div[2]/ul/li[1]/a/b").click()  #for just tesing purposes
-
+        #self.browser.find_element_by_xpath("/html/body/div[1]/div[2]/ul/li[1]/a/b").click()  #for just tesing purposes
+        self.browser.find_element_by_link_text("Admin").click()
+        #self.browser.get("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
 
 
     def click_on_employee_name_to_sort(self):
         self.browser.find_element_by_xpath(self.admin_page_employe_xpath).click()
 
 
-    def check_if_add_worked(self): ##adding function to make sure added user is now in table
-        table = self.browser.find_element_by_xpath("//table[@id='resultTable']")
 
+    #loops through employee table and checks if the username added exists in it after the add
+    def check_if_add_worked(self, username): ##adding function to make sure added user is now in table
+        #time.sleep(15)
+
+        table = self.browser.find_element_by_xpath("//table[@id='resultTable']")
+        listy = []
         for row in table.find_elements_by_xpath(".//tr"):
-            listy.append([td.text for td in row.find_elements_by_xpath(".//td[@class='left'][3]")])  #
+            listy.append([td.text for td in row.find_elements_by_xpath(".//td[@class='left'][1]")])
+        assert(loop_check(username, listy))
+        #keeping list structure for now as it may prove usefull for a "FULL" table comparison later
+        #so i need another for loop for now
+
+
+
+
+
+        #print (listy) #listy
+
 
 
 

@@ -3,6 +3,7 @@ geckodriver
 geckodriver.log
 venv/
 .idea/
-
+*.iml
+*.xml
 
 
