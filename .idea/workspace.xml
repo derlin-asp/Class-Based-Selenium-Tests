@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="babcdfdd-1f2b-4e2a-afe8-09420746592c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/admin_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/admin_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="225">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
               <folding>
                 <element signature="e#47#77#0" expanded="true" />
               </folding>
@@ -45,16 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -69,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/admin_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="258">
+              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -128,13 +129,13 @@
         <option value="$PROJECT_DIR$/Tests/test_login_logout.py" />
         <option value="$PROJECT_DIR$/HelperClasses/locators.py" />
         <option value="$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Pages/admin_page.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -209,28 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_adding_new_employee_ui.AddingEmployeeUI">
-    <configuration name="admin_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Selenium-Test-Suite" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pages/admin_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_adding_new_employee_ui.AddingEmployeeUI.test_adding_new_employee">
     <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Selenium-Test-Suite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,13 +267,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_adding_new_employee_ui.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-Test-Suite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_adding_new_employee_ui.AddingEmployeeUI" />
         <item itemvalue="Python tests.Unittests for test_adding_new_employee_ui.AddingEmployeeUI.test_adding_new_employee" />
+        <item itemvalue="Python tests.Unittests for test_adding_new_employee_ui.AddingEmployeeUI" />
+        <item itemvalue="Python tests.Unittests in test_adding_new_employee_ui.py" />
         <item itemvalue="Python tests.Unittests for test_admin_employee_sort.AdminTest.test_employee_sort" />
         <item itemvalue="Python tests.Unittests for test_admin_employee_sort.AdminTest" />
-        <item itemvalue="Python.admin_page" />
       </list>
     </recent_temporary>
   </component>
@@ -311,21 +305,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_admin_employee_sort_AdminTest_test_employee_sort - 2019.05.07 at 00h 36m 38s.xml">
-      <configuration name="Unittests for test_admin_employee_sort.AdminTest.test_employee_sort" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_adding_new_employee_ui_AddingEmployeeUI - 2019.05.07 at 00h 40m 30s.xml">
-      <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_admin_employee_sort_AdminTest - 2019.05.07 at 00h 41m 15s.xml">
-      <configuration name="Unittests for test_admin_employee_sort.AdminTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_admin_employee_sort_AdminTest_test_employee_sort - 2019.05.07 at 00h 46m 39s.xml">
-      <configuration name="Unittests for test_admin_employee_sort.AdminTest.test_employee_sort" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_admin_employee_sort_AdminTest_test_employee_sort - 2019.05.07 at 00h 50m 57s.xml">
-      <configuration name="Unittests for test_admin_employee_sort.AdminTest.test_employee_sort" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_admin_employee_sort_AdminTest_test_employee_sort - 2019.05.07 at 00h 52m 31s.xml">
       <configuration name="Unittests for test_admin_employee_sort.AdminTest.test_employee_sort" configurationId="tests" />
     </history-entry>
@@ -340,6 +319,21 @@
     </history-entry>
     <history-entry file="Unittests_for_test_adding_new_employee_ui_AddingEmployeeUI - 2019.05.07 at 01h 06m 38s.xml">
       <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_adding_new_employee_ui_py - 2019.05.07 at 01h 30m 30s.xml">
+      <configuration name="Unittests in test_adding_new_employee_ui.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_adding_new_employee_ui_AddingEmployeeUI - 2019.05.07 at 01h 33m 00s.xml">
+      <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_adding_new_employee_ui_py - 2019.05.07 at 01h 35m 21s.xml">
+      <configuration name="Unittests in test_adding_new_employee_ui.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_adding_new_employee_ui_AddingEmployeeUI - 2019.05.07 at 01h 43m 23s.xml">
+      <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_adding_new_employee_ui_AddingEmployeeUI_test_adding_new_employee - 2019.05.07 at 01h 45m 57s.xml">
+      <configuration name="Unittests for test_adding_new_employee_ui.AddingEmployeeUI.test_adding_new_employee" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -424,6 +418,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_admin_employee_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -436,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/admin_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="258">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -446,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="225">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding>
             <element signature="e#47#77#0" expanded="true" />
           </folding>
@@ -456,18 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

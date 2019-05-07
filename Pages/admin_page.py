@@ -1,5 +1,8 @@
 from HelperClasses.locators import Locators
 import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 def loop_check(self, username, listy):
     for person in listy:
@@ -62,8 +65,17 @@ class AdminPage():
         #self.browser.find_element_by_id(self.admin_link_on_dash_id).click()  #THIS IS NOT WORKING
         print("testing after click")
         #self.browser.find_element_by_xpath("/html/body/div[1]/div[2]/ul/li[1]/a/b").click()  #for just tesing purposes
-        self.browser.find_element_by_link_text("Admin").click()
-        #self.browser.get("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
+
+
+        try:
+            print("inside try block for admin button")
+            wait = WebDriverWait(self.browser, 111)
+            element = wait.until(EC.element_to_be_clickable((By.ID, self.admin_link_on_dash_id)))
+            element.click()
+            #self.browser.find_element_by_link_text("Admin").click()
+            #self.browser.get("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
+        except TimeoutError:
+            raise Exception("Element not found or not clickable")
 
 
     def click_on_employee_name_to_sort(self):
