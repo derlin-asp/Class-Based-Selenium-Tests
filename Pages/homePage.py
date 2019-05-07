@@ -1,5 +1,5 @@
 
-from locators import Locators
+from HelperClasses.locators import Locators
 class HomePage():
 
 	def __init__(self,browser):

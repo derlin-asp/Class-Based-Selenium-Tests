@@ -2,6 +2,12 @@
 #all locators are named with style of:  description_locatortype : id class name etc
 
 class Locators():
+
+	#Program Wide Locators
+	Driver_Location = "/home/dave/Downloads/"
+
+
+
 	#login page
 	username_textbox_name = "txtUsername"
 	pass_textbox_name = "txtPassword"
@@ -13,8 +19,10 @@ class Locators():
 	logout_link_text = "Logout"
 
 	#admin page 
-	admin_link_text_on_dash = "Admin"
-	admin_page_employe_text = "Employee Name"
+	#add_button_on_admin_page_id = "menu_admin_viewAdminModule"
+	admin_page_employe_xpath = "/html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/thead/tr/th[4]/a"  #dasdasd
+	add_button_on_admin_page_id = "btnAdd"
+	admin_link_on_dash_id = "menu_admin_viewAdminModule"
 
 		#employee admin table
 	employee_list = "/html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/tbody/tr" #/html/body/div[1]/div[3]/div[2]/div/div/form/div[4]/table/tbody/tr[2]/td[4]

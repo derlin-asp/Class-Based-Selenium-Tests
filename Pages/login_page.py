@@ -1,4 +1,4 @@
-from locators import Locators
+from HelperClasses.locators import Locators
 
 class LoginPage():
 

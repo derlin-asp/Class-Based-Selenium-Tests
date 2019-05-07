@@ -1,3 +1,7 @@
-*.pyc 
+*.pyc
+geckodriver
+geckodriver.log
+venv/
+
 
 
