@@ -19,6 +19,7 @@ They have names like <b>test_feature_being_tested.py</b>
 
 So test_admin_employee_sort.py would be testing the sorting feature on the admin page.
 
+They are located in the Tests folder
 
 
 <h2>Page Object Models</h2>
@@ -31,6 +32,10 @@ this includes the locators from the locators class and the methods for testing f
 
 They are named like AdminPage.py
 
+Located in the Pages Folder
+
+
+Locator.py and other configuration files are in the HelperClasses folder
 
 
 
