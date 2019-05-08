@@ -92,14 +92,7 @@ class AdminPage():
         for row in table.find_elements_by_xpath(".//tr"):
             listy.append([td.text for td in row.find_elements_by_xpath(".//td[@class='left'][1]")])
         assert(loop_check(username, listy))
-        #keeping list structure for now as it may prove usefull for a "FULL" table comparison later
-        #so i need another for loop for now
 
-
-
-
-
-        #print (listy) #listy
 
 
 

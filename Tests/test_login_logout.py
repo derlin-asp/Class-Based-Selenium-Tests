@@ -33,18 +33,6 @@ class LoginTest(unittest.TestCase):
 		#time.sleep(2)
 		home.click_logout()
 
-
-		
-		#time.sleep(100)
-		'''
-		self.browser.get("https://opensource-demo.orangehrmlive.com/")
-		self.browser.find_element_by_name("txtUsername").send_keys("Admin")
-		self.browser.find_element_by_name("txtPassword").send_keys("admin123")
-		self.browser.find_element_by_name("Submit").click()
-		self.browser.find_element_by_id("welcome").click()
-		self.browser.find_element_by_link_text("Logout").click()
-
-'''
 	@classmethod
 	def tearDownClass(cls):
 		cls.browser.close()

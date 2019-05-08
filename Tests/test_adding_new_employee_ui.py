@@ -45,7 +45,9 @@ class AddingEmployeeUI(unittest.TestCase):
 
         print(API.get_user_based_on_id(2))
 
-        temp_name = API.get_user_based_on_id(2)
+        temp_id = API.register_new_user_using_pass_email()
+
+        temp_name = API.get_user_based_on_id(temp_id)
 
         print(temp_name)
         admin.test_add_new_user( temp_name, "ESS", "Robert Craig", "Enabled", "password") #mabye add a way to dynamically get an existing user at random

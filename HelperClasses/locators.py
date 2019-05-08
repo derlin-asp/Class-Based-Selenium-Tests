@@ -46,5 +46,16 @@ class Locators():
 
 
 
+	#API INFO
+	registration_payload =         payload = {
+                        "email": "eve.holt@reqres.in",   #TEMP PAYLOAD should prob be somewhere else
+                        "password": "pistol"
+                  							}
+
+	register_url_end_point = "https://reqres.in/api/register"
+
+
+
+
 
 
