@@ -1,0 +1,12 @@
+
+1. Make a new class for API locators
+2. New Helper class for methods that are not specific to one class and may be usefull in others
+    a. Mabye make it static - Look into this
+3. Fix Admin Page
+4. Start Time Ppage
+
+
+
+
+
+

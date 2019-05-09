@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="babcdfdd-1f2b-4e2a-afe8-09420746592c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ToDoList.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/TimePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/TimePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/admin_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/admin_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestCalls/Get_User_Name.py" beforeDir="false" afterPath="$PROJECT_DIR$/RestCalls/Get_User_Name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_adding_new_employee_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_admin_employee_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_admin_employee_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_login_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_login_logout.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelperClasses/locators.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ToDoList.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -45,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RestCalls/Get_User_Name.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="495">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -124,6 +128,7 @@
         <option value="$PROJECT_DIR$/Pages/TimePage.py" />
         <option value="$PROJECT_DIR$/Pages/admin_page.py" />
         <option value="$PROJECT_DIR$/RestCalls/Get_User_Name.py" />
+        <option value="$PROJECT_DIR$/ToDoList.txt" />
       </list>
     </option>
   </component>
@@ -352,12 +357,12 @@
     <frame x="-2" y="0" width="1370" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3322314" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3322314" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289256" />
@@ -438,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelperClasses/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/TimePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -478,8 +476,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RestCalls/Get_User_Name.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="495">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelperClasses/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDoList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
