@@ -1,10 +1,12 @@
 
 #from HelperClasses.locators import Locators
-from selenium import webdriver
 import unittest
+
 import HtmlTestRunner
-from Pages.login_page import LoginPage
+from selenium import webdriver
+
 from Pages.admin_page import AdminPage
+from Pages.login_page import LoginPage
 
 
 class AdminTest(unittest.TestCase):

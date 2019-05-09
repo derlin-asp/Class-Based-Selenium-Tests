@@ -1,15 +1,8 @@
-from HelperClasses.locators import Locators
-import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-def loop_check(self, username, listy):
-    for person in listy:
-        if person == username:
-            return True
-    return False
-
+from HelperClasses.locators import Locators
 
 
 class AdminPage():
@@ -93,14 +86,8 @@ class AdminPage():
             listy.append([td.text for td in row.find_elements_by_xpath(".//td[@class='left'][1]")])
         assert(loop_check(username, listy))
 
-
-
-
-
-
-
-
-
-
-
-
+    def loop_check(self, username, listy):  # prob a more consice way of doing this
+        for person in listy:
+            if person == username:  # mabye not need in this class mabye in a generic helper class as static
+                return True
+        return False

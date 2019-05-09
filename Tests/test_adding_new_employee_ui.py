@@ -1,13 +1,15 @@
 
 #from HelperClasses.locators import Locators
-from RestCalls.Get_User_Name import UserAPI
-from selenium import webdriver
-import unittest
-import HtmlTestRunner
-from Pages.login_page import LoginPage
-from Pages.admin_page import AdminPage
 import time
+import unittest
+
+import HtmlTestRunner
 from faker import Faker
+from selenium import webdriver
+
+from Pages.admin_page import AdminPage
+from Pages.login_page import LoginPage
+from RestCalls.Get_User_Name import UserAPI
 
 
 class AddingEmployeeUI(unittest.TestCase):

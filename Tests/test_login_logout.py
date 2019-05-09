@@ -1,11 +1,13 @@
 
 #from HelperClasses.locators import Locators
-from selenium import webdriver
 import unittest
+
 import HtmlTestRunner
+from selenium import webdriver
+
 from Pages.homePage import HomePage
 from Pages.login_page import LoginPage
-import time
+
 
 class LoginTest(unittest.TestCase):
 
